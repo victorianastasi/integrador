@@ -1,0 +1,122 @@
+.navbar_image{
+    width: 40%;
+}
+.navbar-brand{
+    width: 50%;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+.prinpical_image{
+    background-image: url("./img/ba1.jpg");
+    height: calc(100vh - 93.2px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prinpical_image_box{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.prinpical_image_text{
+    width: 100%;
+    text-align: center;
+    margin: 0 1rem;
+}
+.btn-transparent{
+    background-color: transparent;
+    color: white;
+}
+.cards-container{
+    flex-flow: row wrap;
+}
+.cards_text{
+    text-align: center;
+    text-transform: uppercase;
+}
+.cards_text{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.cards_text p{
+    margin-bottom: 0;
+    font-size: 0.65rem;
+}
+.cards_text h6{
+    font-size: 1.7rem;
+}
+.bg-light-blue{
+    background-color: darkcyan;
+}
+.card-honolulu{
+    border-radius: 0;
+}
+.img-honolulu{
+    width: 100%;
+    border-right: 1px solid white;
+}
+.text-honolulu{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.form-container{
+    width: 90%;
+    margin: 0 auto;
+}
+form p {
+    text-align: center;
+}
+form p span{
+    text-decoration: underline 1.5px dotted black;
+}
+.btn-green{
+    background-color: rgb(150,201,62);
+    color: white;
+    font-weight: 700;
+}
+.btn-green:hover{
+    background-color: rgb(90, 133, 59);
+    color: white;
+}
+footer{
+    background-image: linear-gradient(to right,rgb(26,54,68) , rgb(27,82,113));
+    text-align: center;
+    padding: 1rem 0;
+}
+footer div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+    width: 70px;
+    font-size: 0.8rem;
+}
+@media screen and (min-width: 992px){
+    .nav_container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .navbar-brand{
+        width: 25%;
+    }
+    .prinpical_image_text{
+        width: 516px;
+        text-align: right;
+        margin: 5rem 7rem 0 0;
+    }
+    .form-container{
+        width: 50%;
+    }
+}
